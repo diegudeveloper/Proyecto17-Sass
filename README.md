@@ -5,7 +5,7 @@
 Ese proyecto fue construido con los conocimientos adquiridos con el curso tomado en la plataformas Platzi. El mismo consta de la elaboración de una Landin Page con el procesador Sass. 
 
 ## ▶️ Comienza
-Solo debes ingresar al siguiente link para ver el Proyecto: [Proyecto 16]() y así poder darme tu feedback.
+Solo debes ingresar al siguiente link para ver el Proyecto: [Proyecto 16](https://github.com/diegudeveloper/Proyecto17-Sass/blob/gh-pages/images/Sass.png) y así poder darme tu feedback.
 
 ## 👨🏻‍💻 Tecnologías
 1. Html
@@ -16,7 +16,7 @@ Solo debes ingresar al siguiente link para ver el Proyecto: [Proyecto 16]() y as
 <details>
     <summary>🖥 Desktop version</summary>
 
-![]()
+![](https://github.com/diegudeveloper/Proyecto17-Sass/blob/gh-pages/images/Sass.png)
 
 </details>
 
