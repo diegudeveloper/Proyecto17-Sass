@@ -10,6 +10,9 @@
 		height: 200px;
 		padding-top: 0;
 	}
+	@media screen and (max-width: 1024px) {
+		width: 75%;
+	}
 	&__foto-principal {
 		float: left;
 		margin-right: 10px;

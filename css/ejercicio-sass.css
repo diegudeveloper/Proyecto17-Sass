@@ -191,6 +191,11 @@ main {
     padding-top: 0;
   }
 }
+@media screen and (max-width: 1024px) {
+  .galeria {
+    width: 75%;
+  }
+}
 .galeria__foto-principal {
   float: left;
   margin-right: 10px;
@@ -215,10 +220,20 @@ main {
   width: 40%;
   padding: 50px 0 0 50px;
 }
+@media screen and (max-width: 1280px) {
+  .articulos {
+    padding-top: 15px;
+  }
+}
 
 .articulo {
   margin-bottom: 75px;
   border-bottom: 3px solid #8841DA;
+}
+@media screen and (max-width: 1280px) {
+  .articulo {
+    margin-bottom: 20px;
+  }
 }
 .articulo__categoria {
   font-weight: 500;
