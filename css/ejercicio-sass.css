@@ -148,6 +148,11 @@ main {
     padding-top: 0px;
   }
 }
+@media screen and (max-width: 375px) {
+  .estadistica--perfil {
+    width: 60%;
+  }
+}
 .estadistica--perfil h3 {
   font-weight: 600;
   font-size: 20px;
@@ -194,6 +199,11 @@ main {
     height: 80px;
     padding-top: 15px;
     margin-top: 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .ubicacion--perfil {
+    width: 70%;
   }
 }
 .ubicacion--perfil i {
@@ -244,6 +254,12 @@ main {
 @media screen and (max-width: 1024px) {
   .galeria {
     width: 75%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .galeria {
+    width: 90%;
+    padding: 5px 5px;
   }
 }
 .galeria__foto-principal {
