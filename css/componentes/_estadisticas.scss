@@ -7,6 +7,11 @@
 	margin: 0 auto;
 	justify-content: space-around;
 	@include caja;
+	@media screen and (max-width: 1440px) {
+		width: 40%;
+		height: 45px;
+		padding: 0px;
+	}
 	@media screen and (max-width: 1280px) {
 		height: 50px;
 		padding-top: 0px;
@@ -17,6 +22,9 @@
 		font-size: 20px;
 		text-align: center;
 		@include titulos($Fuente2);
+		@media screen and (max-width: 1440px) {
+			font-size: 16px;
+		}
 		@media screen and (max-width: 1280px) {
 			font-size: 18px;
 		}

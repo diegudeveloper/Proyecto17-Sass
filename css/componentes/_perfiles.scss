@@ -3,6 +3,9 @@
 	padding-top: 50px;
 	color: $color-claro;
 	background-color:$color-secundario;
+	@media screen and (max-width: 1440px) {
+		padding-top: 10px;
+	}
 	@media screen and (max-width: 1280px) {
 		padding-top: 10px;
 	}
@@ -10,12 +13,14 @@
 		display: block;
 		margin: 0 auto;
 		border-radius: 50em;
+		@media screen and (max-width: 1440px) {
+			padding-top: 10px;
+			height: 60px;
+		}
 		@media screen and (max-width: 1280px) {
-		padding-top: 10px;
-		@media screen and (max-width: 1280px) {
+			padding-top: 10px;
 			height: 70px;
 		}
-	}
 	}
 	&__nombre {
 		text-align: center;
@@ -42,6 +47,10 @@
 		@include titulos($Fuente2);
 		background-color: get-opacity($color-primario, .20);
 		border: 2px solid get-opacity($color-claro, .30);
+		@media screen and (max-width: 1440px) {
+			height: 30px;
+			padding-top: 1px;
+		}
 		@media screen and (max-width: 1280px) {
 			padding-top: 2px;
 			height: 30px;

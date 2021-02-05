@@ -5,6 +5,11 @@
 	padding: 20px 0 0 30px;
 	justify-content: space-evenly;
 	@include caja;
+	@media screen and (max-width: 1440px) {
+		margin-top: 30px;
+		height: 200px;
+		padding-top: 0px;
+	}
 	@media screen and (max-width: 1280px) {
 		margin-top: 20px;
 		height: 200px;
