@@ -258,13 +258,19 @@ main {
 }
 @media screen and (max-width: 375px) {
   .galeria {
-    width: 90%;
+    width: 97%;
     padding: 5px 5px;
   }
 }
 .galeria__foto-principal {
   float: left;
   margin-right: 10px;
+}
+@media screen and (max-width: 375px) {
+  .galeria__foto-principal {
+    margin-left: 15px;
+    margin-right: 10px;
+  }
 }
 .galeria__fotos-adicionales img {
   height: 70px;
