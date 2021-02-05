@@ -268,7 +268,6 @@ main {
 }
 @media screen and (max-width: 375px) {
   .galeria__foto-principal {
-    margin-left: 15px;
     margin-right: 10px;
   }
 }
