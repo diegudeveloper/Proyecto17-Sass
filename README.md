@@ -23,6 +23,6 @@ Solo debes ingresar al siguiente link para ver el Proyecto: [Proyecto 17](https:
 <details>
     <summary>📱 Mobile version</summary>
     
-![]()
+![](https://github.com/diegudeveloper/Proyecto17-Sass/blob/gh-pages/images/movil.png)
 
 </details>
